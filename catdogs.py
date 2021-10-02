@@ -5,7 +5,7 @@ from datetime import timedelta
 from airflow import DAG
 from airflow.models import Variable
 from airflow.utils.dates import days_ago
-from airflow.operators.python import PythonOperator, PythonVirtualenvOperator
+from airflow.operators.python import PythonOperator
 from airflow.operators.http_operator import SimpleHttpOperator
 
 
